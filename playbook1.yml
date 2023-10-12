@@ -1,4 +1,4 @@
-- host: localhost
+- hosts: localhost
   gather_facts: off
   task:
     - debug: var=awx_webhook_payload
