@@ -2,3 +2,4 @@
   gather_facts: off
   tasks:
     - debug: var=awx_webhook_payload
+    - shell: env
